@@ -31,8 +31,23 @@
   background: #5E4485;
   border: 2px solid #FFF;
 }
-@media (max-width:600px){
+.container{
+  margin: 4% auto;
+}
+
+#icon{
+  max-width: 200px;
+  margin:1% auto;
+}
+@media (max-width:600px) {
   .carousel-caption{
     display: none;
   }
+  #icon{
+    max-width: 150px;
+  }
+  h4 {
+    font-size: 1.7em;
+  }
+
 }
